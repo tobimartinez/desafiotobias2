@@ -34,7 +34,6 @@ function renderProductos(){
     }
 }
 
-
 function agregarCarrito(id){
     let producto= buscarProducto(id);
     let productos_carrito= obtenerProductosCarrito();
@@ -46,4 +45,6 @@ function agregarCarrito(id){
 guardarProductosLS(productos);
 renderProductos();
 actualizarBotonCarrito();
+
+
 
